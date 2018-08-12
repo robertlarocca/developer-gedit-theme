@@ -1,2 +1,2 @@
 # developer-gedit-theme
-A dark colored theme for Gedit
+### A dark colored theme for Gedit
