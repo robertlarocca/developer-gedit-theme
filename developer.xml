@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+MIT License
+
+Copyright (c) 2018 Robert LaRocca
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+
+<style-scheme id="developer" _name="Developer" version="1.0">
+	<author>Robert LaRocca</author>
+	<_description>A dark colored theme for Gedit</_description>
+
+	<!-- Developer Palette -->
+	<color name="base00" value="#657B83"/>
+	<color name="base01" value="#586E75"/>
+	<color name="base02" value="#2b282d"/>
+	<color name="base03" value="#181819"/>
+	<color name="base04" value="#131314"/>
+	<color name="base0" value="#839496"/>
+	<color name="base1" value="#93A1A1"/>
+	<color name="base2" value="#EEE8D5"/>
+	<color name="base3" value="#FDF6E3"/>
+	<color name="blue" value="#268BD2"/>
+	<color name="cyan" value="#2AA198"/>
+	<color name="green" value="#859900"/>
+	<color name="magenta" value="#D33682"/>
+	<color name="orange" value="#CB4B16"/>
+	<color name="red" value="#DC322F"/>
+	<color name="violet" value="#6C71C4"/>
+	<color name="yellow" value="#B58900"/>
+
+	<!-- Global Settings -->
+	<style name="text" foreground="base1" background="base04"/>
+	<style name="selection" foreground="base04" background="base00"/>
+	<style name="cursor" foreground="base1"/>
+	<style name="secondary-cursor" foreground="base00"/>
+	<style name="current-line" background="base02"/>
+	<style name="line-numbers" foreground="base01" background="base02"/>
+	<style name="background-pattern" background="base03"/>
+	<style name="right-margin" foreground="base2" background="base1"/>
+	<style name="bracket-match" foreground="base04" background="base01"/>
+	<style name="bracket-mismatch" foreground="red" background="base01"/>
+	<style name="search-match" foreground="base04" background="yellow"/>
+
+	<!-- Other Settings -->
+	<style name="def:comment" foreground="base01" italic="true"/>
+	<style name="def:shebang" foreground="base01" bold="true"/>
+	<style name="def:doc-comment-element" italic="true"/>
+	<style name="def:constant" foreground="cyan"/>
+	<style name="def:special-char" foreground="green"/>
+	<style name="def:identifier" foreground="blue"/>
+	<style name="def:statement" foreground="orange"/>
+	<style name="def:type" foreground="yellow"/>
+	<style name="def:operator" foreground="green"/>
+	<style name="def:preprocessor" foreground="violet"/>
+	<style name="def:error" foreground="red" bold="true"/>
+	<style name="def:note" foreground="magenta" bold="true"/>
+	<style name="def:underlined" italic="true" underline="single"/>
+
+	<!-- Heading Styles -->
+	<style name="def:heading0" scale="5.0"/>
+	<style name="def:heading1" scale="2.5"/>
+	<style name="def:heading2" scale="2.0"/>
+	<style name="def:heading3" scale="1.7"/>
+	<style name="def:heading4" scale="1.5"/>
+	<style name="def:heading5" scale="1.3"/>
+	<style name="def:heading6" scale="1.2"/>
+
+</style-scheme>
