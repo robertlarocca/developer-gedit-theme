@@ -26,7 +26,7 @@ SOFTWARE.
 
 <style-scheme id="developer" _name="Developer" version="1.0">
 	<author>Robert LaRocca</author>
-	<_description>A dark colored theme for Gedit</_description>
+	<_description>A color scheme inspired by Solarized Dark</_description>
 
 	<!-- Developer Palette -->
 	<color name="base00" value="#657B83"/>
