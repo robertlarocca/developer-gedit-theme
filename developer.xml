@@ -3,15 +3,14 @@
 <!--
 Copyright (c) 2018 Robert LaRocca
 
-Use of this source code is governed by an MIT-style license that can be
-found in the projects LICENSE file or https://www.laroccx.com/LICENSE.md
+Use of this source code is governed by an MIT-style license that can be found in the projects LICENSE file or https://www.laroccx.com/LICENSE.md
 -->
 
 <style-scheme id="developer" _name="Developer" version="1.0">
 	<author>Robert LaRocca</author>
-	<_description>A color scheme inspired by Solarized Dark</_description>
+	<_description>A beautiful Gedit color scheme inspired by Solarized Dark</_description>
 
-	<!-- Developer Palette -->
+<!--palette-->
 	<color name="base00" value="#657B83"/>
 	<color name="base01" value="#586E75"/>
 	<color name="base02" value="#2b282d"/>
@@ -30,35 +29,35 @@ found in the projects LICENSE file or https://www.laroccx.com/LICENSE.md
 	<color name="violet" value="#6C71C4"/>
 	<color name="yellow" value="#B58900"/>
 
-	<!-- Global Settings -->
-	<style name="text" foreground="base1" background="base04"/>
-	<style name="selection" foreground="base04" background="base00"/>
-	<style name="cursor" foreground="base1"/>
-	<style name="secondary-cursor" foreground="base00"/>
-	<style name="current-line" background="base02"/>
-	<style name="line-numbers" foreground="base01" background="base02"/>
+<!--global-->
 	<style name="background-pattern" background="base03"/>
-	<style name="right-margin" foreground="base2" background="base1"/>
 	<style name="bracket-match" foreground="base04" background="base01"/>
 	<style name="bracket-mismatch" foreground="red" background="base01"/>
+	<style name="current-line" background="base02"/>
+	<style name="cursor" foreground="base1"/>
+	<style name="line-numbers" foreground="base01" background="base02"/>
+	<style name="right-margin" foreground="base2" background="base1"/>
 	<style name="search-match" foreground="base04" background="yellow"/>
+	<style name="secondary-cursor" foreground="base00"/>
+	<style name="selection" foreground="base04" background="base00"/>
+	<style name="text" foreground="base1" background="base04"/>
 
-	<!-- Other Settings -->
+<!--default-->
 	<style name="def:comment" foreground="base01" italic="true"/>
-	<style name="def:shebang" foreground="base01" bold="true"/>
-	<style name="def:doc-comment-element" italic="true"/>
 	<style name="def:constant" foreground="cyan"/>
-	<style name="def:special-char" foreground="green"/>
+	<style name="def:doc-comment-element" italic="true"/>
+	<style name="def:error" foreground="red" bold="true"/>
 	<style name="def:identifier" foreground="blue"/>
-	<style name="def:statement" foreground="orange"/>
-	<style name="def:type" foreground="yellow"/>
+	<style name="def:note" foreground="magenta" bold="true"/>
 	<style name="def:operator" foreground="green"/>
 	<style name="def:preprocessor" foreground="violet"/>
-	<style name="def:error" foreground="red" bold="true"/>
-	<style name="def:note" foreground="magenta" bold="true"/>
+	<style name="def:shebang" foreground="base01" bold="true"/>
+	<style name="def:special-char" foreground="green"/>
+	<style name="def:statement" foreground="orange"/>
+	<style name="def:type" foreground="yellow"/>
 	<style name="def:underlined" italic="true" underline="single"/>
 
-	<!-- Heading Styles -->
+<!--default-->
 	<style name="def:heading0" scale="5.0"/>
 	<style name="def:heading1" scale="2.5"/>
 	<style name="def:heading2" scale="2.0"/>
