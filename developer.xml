@@ -1,69 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!--
-Copyright (c) 2018 Robert LaRocca
+<!-- Copyright (c) 2018-2021 Robert LaRocca <https://www.laroccx.com> -->
 
-Use of this source code is governed by an MIT-style license that can be found in the projects LICENSE file or https://www.laroccx.com/LICENSE.md
--->
-
-<style-scheme id="developer" _name="Developer" version="1.0">
+<style-scheme id="developer" name="Developer" version="1.0">
 	<author>Robert LaRocca</author>
-	<_description>A beautiful Gedit color scheme inspired by Solarized Dark</_description>
+	<description>A dark color scheme for Builder and Text Editor</description>
 
-<!--palette-->
-	<color name="base00" value="#657B83"/>
-	<color name="base01" value="#586E75"/>
-	<color name="base02" value="#2b282d"/>
-	<color name="base03" value="#181819"/>
-	<color name="base04" value="#131314"/>
-	<color name="base0" value="#839496"/>
-	<color name="base1" value="#93A1A1"/>
-	<color name="base2" value="#EEE8D5"/>
-	<color name="base3" value="#FDF6E3"/>
-	<color name="blue" value="#268BD2"/>
-	<color name="cyan" value="#2AA198"/>
-	<color name="green" value="#859900"/>
-	<color name="magenta" value="#D33682"/>
-	<color name="orange" value="#CB4B16"/>
-	<color name="red" value="#DC322F"/>
-	<color name="violet" value="#6C71C4"/>
-	<color name="yellow" value="#B58900"/>
+<!-- palette -->
+	<color name="white" value="#ffffff"/>
+	<color name="gallery" value="#f0f0f0"/>
+	<color name="iron" value="#d7d7d7"/>
+	<color name="silver" value="#c1c1c1"/>
+	<color name="dust" value="#a9a9a9"/>
+	<color name="gray" value="#898989"/>
+	<color name="storm" value="#6c6c6c"/>
+	<color name="tundora" value="#505050"/>
+	<color name="shark" value="#2e2e2e"/>
+	<color name="night" value="#171717"/>
+	<color name="black" value="#000000"/>
+	<color name="punch" value="#e94c36"/>
+	<color name="tabasco" value="#c23824"/>
+	<color name="tahiti" value="#c17d11"/>
+	<color name="orange" value="#d45400"/>
+	<color name="corn" value="#f2c500"/>
+	<color name="poppy" value="#f59d00"/>
+	<color name="jungle" value="#00bd9c"/>
+	<color name="observatory" value="#00a186"/>
+	<color name="studio" value="#9b56b7"/>
+	<color name="seance" value="#8e3faf"/>
+	<color name="bluewood" value="#33495f"/>
+	<color name="nile" value="#2c3e51"/>
+	<color name="havelock" value="#2e97de"/>
+	<color name="lochmara" value="#227eba"/>
+	<color name="green" value="#1dce6c"/>
+	<color name="chateau" value="#1caf5e"/>
 
-<!--global-->
-	<style name="background-pattern" background="base03"/>
-	<style name="bracket-match" foreground="base04" background="base01"/>
-	<style name="bracket-mismatch" foreground="red" background="base01"/>
-	<style name="current-line" background="base02"/>
-	<style name="cursor" foreground="base1"/>
-	<style name="line-numbers" foreground="base01" background="base02"/>
-	<style name="right-margin" foreground="base2" background="base1"/>
-	<style name="search-match" foreground="base04" background="yellow"/>
-	<style name="secondary-cursor" foreground="base00"/>
-	<style name="selection" foreground="base04" background="base00"/>
-	<style name="text" foreground="base1" background="base04"/>
+<!-- global -->
+	<style name="background-pattern" background="shark"/>
+	<style name="bracket-match" foreground="black" background="poppy"/>
+	<style name="bracket-mismatch" foreground="gallery" background="punch"/>
+	<style name="current-line" background="shark"/>
+	<style name="current-line-number" background="shark"/>
+	<style name="cursor" foreground="gallery"/>
+	<style name="draw-spaces" foreground="tundora"/>
+	<style name="line-numbers" foreground="storm" background="night"/>
+	<style name="right-margin" foreground="storm" background="black"/>
+	<style name="search-match" foreground="black" background="corn"/>
+	<style name="secondary-cursor" foreground="dust"/>
+	<style name="selection" foreground="black" background="dust"/>
+	<style name="text" foreground="gallery" background="night"/>
 
-<!--default-->
-	<style name="def:comment" foreground="base01" italic="true"/>
-	<style name="def:constant" foreground="cyan"/>
+<!-- def -->
+	<style name="def:comment" foreground="storm"/>
+	<style name="def:constant" foreground="seance"/>
+	<style name="def:deletion" strikethrough="true"/>
 	<style name="def:doc-comment-element" italic="true"/>
-	<style name="def:error" foreground="red" bold="true"/>
-	<style name="def:identifier" foreground="blue"/>
-	<style name="def:note" foreground="magenta" bold="true"/>
-	<style name="def:operator" foreground="green"/>
-	<style name="def:preprocessor" foreground="violet"/>
-	<style name="def:shebang" foreground="base01" bold="true"/>
-	<style name="def:special-char" foreground="green"/>
-	<style name="def:statement" foreground="orange"/>
-	<style name="def:type" foreground="yellow"/>
-	<style name="def:underlined" italic="true" underline="single"/>
+	<style name="def:emphasis" italic="true"/>
+	<style name="def:error" background="punch" bold="true"/>
+	<style name="def:heading" foreground="green" bold="true"/>
+	<style name="def:identifier" foreground="bluewood"/>
+	<style name="def:inline-code" foreground="bluewood"/>
+	<style name="def:insertion" underline="single"/>
+	<style name="def:link-destination" italic="true" underline="single"/>
+	<style name="def:link-symbol" foreground="lochmara" bold="true"/>
+	<style name="def:link-text" foreground="lochmara"/>
+	<style name="def:list-marker" foreground="punch" bold="true"/>
+	<style name="def:net-address" foreground="lochmara" italic="true" underline="single"/>
+	<style name="def:note" background="tahiti" bold="true"/>
+	<style name="def:preformatted-section" foreground="bluewood"/>
+	<style name="def:preprocessor" foreground="tahiti"/>
+	<style name="def:shebang" foreground="bluewood" bold="true"/>
+	<style name="def:special-char" foreground="seance"/>
+	<style name="def:statement" foreground="punch" bold="true"/>
+	<style name="def:strong-emphasis" foreground="punch" bold="true"/>
+	<style name="def:thematic-break" foreground="green" bold="true"/>
+	<style name="def:type" foreground="green" bold="true"/>
+	<style name="def:warning" background="seance"/>
 
-<!--default-->
+<!-- diff -->
+	<style name="diff:added-line" foreground="green"/>
+	<style name="diff:changed-line" use-style="def:preprocessor"/>
+	<style name="diff:diff-file" use-style="def:type"/>
+	<style name="diff:location" use-style="def:statement"/>
+	<style name="diff:removed-line" foreground="seance"/>
+	<style name="diff:special-case" use-style="def:constant"/>
+
+<!-- js -->
+	<style name="js:built-in-constructor" foreground="green"/>
+
+<!-- latex -->
+	<style name="latex:command" foreground="green" bold="true"/>
+	<style name="latex:display-math" foreground="seance"/>
+	<style name="latex:include" use-style="def:preprocessor"/>
+	<style name="latex:special-char" use-style="def:constant"/>
+
+<!-- shell -->
+	<style name="sh:variable-definition" foreground="jungle"/>
+	<style name="sh:variable" foreground="studio"/>
+
+<!-- xml -->
+	<style name="xml:namespace" bold="true"/>
+	<style name="xml:tags" foreground="jungle"/>
+
+<!-- heading -->
 	<style name="def:heading0" scale="5.0"/>
-	<style name="def:heading1" scale="2.5"/>
-	<style name="def:heading2" scale="2.0"/>
-	<style name="def:heading3" scale="1.7"/>
-	<style name="def:heading4" scale="1.5"/>
-	<style name="def:heading5" scale="1.3"/>
+	<style name="def:heading1" scale="4.0"/>
+	<style name="def:heading2" scale="3.0"/>
+	<style name="def:heading3" scale="2.5"/>
+	<style name="def:heading4" scale="2.0"/>
+	<style name="def:heading5" scale="1.5"/>
 	<style name="def:heading6" scale="1.2"/>
 
 </style-scheme>
+

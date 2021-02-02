@@ -1,5 +1,9 @@
 # developer-gedit-theme
-### A beautiful Gedit color scheme inspired by Solarized Dark.
+A dark color scheme for Builder and Text Editor.
 
-mkdir -p ~/.local/share/gtksourceview-3.0/styles
-cp -v developer.xml ~/.local/share/gtksourceview-3.0/styles/
+## Install
+Install `developer.xml` using:
+```shell
+sudo bash INSTALL
+```
+

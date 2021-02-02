@@ -1,12 +1,14 @@
 #!/bin/bash
 
-#
-# Copyright (c) 2018-2019 Robert LaRocca
-#
-# A beautiful Gedit color scheme inspired by Solarized Dark.
+# Copyright (c) 2021 Robert LaRocca http://www.laroccx.com
 
-mkdir -p $HOME/.local/share/gtksourceview-3.0/styles
-cp -v $PWD/developer.xml $HOME/.local/share/gtksourceview-3.0/styles/
-
-printf "Restart Text Editor (Gedit) to use the Developer color scheme. \n"
+if [ -e "$HOME/.local/share/gedit/styles/" ]; then
+	cp -b -S .bak -v $PWD/*.xml $HOME/.local/share/gedit/styles/
+	chmod 0664 $HOME/.local/share/gedit/styles/*.xml
+	chown $USER:$USER $HOME/.local/share/gedit/styles/*.xml
+else
+	sudo cp -b -S .bak -v $PWD/*.xml /usr/share/gtksourceview-4/styles/
+	chmod 0644 /usr/share/gtksourceview-4/styles/*.xml
+	chown root:root /usr/share/gtksourceview-4/styles/*.xml
+fi
 
