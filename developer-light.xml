@@ -2,9 +2,9 @@
 
 <!-- Copyright (c) 2018-2021 Robert LaRocca <https://www.laroccx.com> -->
 
-<style-scheme id="developer" name="Developer" version="1.0">
+<style-scheme id="developer-light" name="Developer Light" version="1.0">
 	<author>Robert LaRocca</author>
-	<description>A dark color scheme for Builder and Text Editor</description>
+	<description>A light color scheme for Builder and Text Editor</description>
 
 <!-- palette -->
 	<color name="white" value="#ffffff"/>
@@ -36,22 +36,22 @@
 	<color name="chateau" value="#1caf5e"/>
 
 <!-- global -->
-	<style name="background-pattern" background="shark"/>
-	<style name="bracket-match" foreground="black" background="poppy"/>
-	<style name="bracket-mismatch" foreground="gallery" background="punch"/>
-	<style name="current-line" background="shark"/>
-	<style name="current-line-number" background="shark"/>
-	<style name="cursor" foreground="gallery"/>
-	<style name="draw-spaces" foreground="tundora"/>
-	<style name="line-numbers" foreground="storm" background="night"/>
-	<style name="right-margin" foreground="storm" background="black"/>
-	<style name="search-match" foreground="black" background="corn"/>
-	<style name="secondary-cursor" foreground="dust"/>
-	<style name="selection" foreground="black" background="dust"/>
-	<style name="text" foreground="gallery" background="night"/>
+	<style name="background-pattern" background="iron"/>
+	<style name="bracket-match" foreground="white" background="poppy"/>
+	<style name="bracket-mismatch" foreground="night" background="punch"/>
+	<style name="current-line" background="iron"/>
+	<style name="current-line-number" background="iron"/>
+	<style name="cursor" foreground="night"/>
+	<style name="draw-spaces" foreground="silver"/>
+	<style name="line-numbers" foreground="dust" background="gallery"/>
+	<style name="right-margin" foreground="dust" background="white"/>
+	<style name="search-match" foreground="white" background="corn"/>
+	<style name="secondary-cursor" foreground="storm"/>
+	<style name="selection" foreground="white" background="storm"/>
+	<style name="text" foreground="night" background="gallery"/>
 
 <!-- def -->
-	<style name="def:comment" foreground="storm"/>
+	<style name="def:comment" foreground="tundora"/>
 	<style name="def:constant" foreground="seance"/>
 	<style name="def:deletion" strikethrough="true"/>
 	<style name="def:doc-comment-element" italic="true"/>

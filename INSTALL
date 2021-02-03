@@ -3,12 +3,12 @@
 # Copyright (c) 2021 Robert LaRocca http://www.laroccx.com
 
 if [ -e "$HOME/.local/share/gedit/styles/" ]; then
-	cp -b -S .bak -v $PWD/*.xml $HOME/.local/share/gedit/styles/
-	chmod 0664 $HOME/.local/share/gedit/styles/*.xml
-	chown $USER:$USER $HOME/.local/share/gedit/styles/*.xml
+	cp -b -S .bak -v $PWD/developer-*.xml $HOME/.local/share/gedit/styles/
+	chmod 0664 $HOME/.local/share/gedit/styles/developer-*.xml
+	chown $USER:$USER $HOME/.local/share/gedit/styles/developer-*.xml
 else
-	sudo cp -b -S .bak -v $PWD/*.xml /usr/share/gtksourceview-4/styles/
-	chmod 0644 /usr/share/gtksourceview-4/styles/*.xml
-	chown root:root /usr/share/gtksourceview-4/styles/*.xml
+	sudo cp -b -S .bak -v $PWD/developer-*.xml /usr/share/gtksourceview-4/styles/
+	chmod 0644 /usr/share/gtksourceview-4/styles/developer-*.xml
+	chown root:root /usr/share/gtksourceview-4/styles/developer-*.xml
 fi
 

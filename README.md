@@ -1,5 +1,5 @@
 # developer-gedit-theme
-A dark color scheme for Builder and Text Editor.
+A pair of color schemes for Builder and Text Editor.
 
 ## Install
 Install `developer.xml` using:
