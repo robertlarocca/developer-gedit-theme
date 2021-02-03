@@ -8,7 +8,7 @@ if [ -e "$HOME/.local/share/gedit/styles/" ]; then
 	chown $USER:$USER $HOME/.local/share/gedit/styles/developer-*.xml
 else
 	sudo cp -b -S .bak -v $PWD/developer-*.xml /usr/share/gtksourceview-4/styles/
-	chmod 0644 /usr/share/gtksourceview-4/styles/developer-*.xml
-	chown root:root /usr/share/gtksourceview-4/styles/developer-*.xml
+	sudo chmod 0644 /usr/share/gtksourceview-4/styles/developer-*.xml
+	sudo chown root:root /usr/share/gtksourceview-4/styles/developer-*.xml
 fi
 

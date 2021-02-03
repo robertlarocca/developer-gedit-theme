@@ -2,8 +2,8 @@
 A pair of color schemes for Builder and Text Editor.
 
 ## Install
-Install `developer.xml` using:
+Install `developer-dark.xml` and `developer-light.xml` using:
 ```shell
-sudo bash INSTALL
+bash INSTALL
 ```
 
