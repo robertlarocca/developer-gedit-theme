@@ -58,8 +58,8 @@
 	<style name="def:emphasis" italic="true"/>
 	<style name="def:error" background="punch" bold="true"/>
 	<style name="def:heading" foreground="green" bold="true"/>
-	<style name="def:identifier" foreground="bluewood"/>
-	<style name="def:inline-code" foreground="bluewood"/>
+	<style name="def:identifier" foreground="havelock"/>
+	<style name="def:inline-code" foreground="havelock"/>
 	<style name="def:insertion" underline="single"/>
 	<style name="def:link-destination" italic="true" underline="single"/>
 	<style name="def:link-symbol" foreground="lochmara" bold="true"/>
@@ -67,9 +67,9 @@
 	<style name="def:list-marker" foreground="punch" bold="true"/>
 	<style name="def:net-address" foreground="lochmara" italic="true" underline="single"/>
 	<style name="def:note" background="tahiti" bold="true"/>
-	<style name="def:preformatted-section" foreground="bluewood"/>
+	<style name="def:preformatted-section" foreground="havelock"/>
 	<style name="def:preprocessor" foreground="tahiti"/>
-	<style name="def:shebang" foreground="bluewood" bold="true"/>
+	<style name="def:shebang" foreground="havelock" bold="true"/>
 	<style name="def:special-char" foreground="seance"/>
 	<style name="def:statement" foreground="punch" bold="true"/>
 	<style name="def:strong-emphasis" foreground="punch" bold="true"/>
